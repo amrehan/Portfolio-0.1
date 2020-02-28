@@ -1,0 +1,263 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    /* background-color: #ff4c68; */
+    background-image: url("https://makcreates.com/wp-content/uploads/2018/03/black-background-mak-creates-web-design-services-1500-2500.jpg");
+    color: #fff;
+
+
+}
+
+h1 {
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat-black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light"
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+    width: 60%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    right: 1%;
+}
+
+.icon-feautures {
+    height: 10px;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    /* line-height: 2.5; */
+}
+
+.icon {
+    color: #30475e;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #142850;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+#cta {
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    text-align: center;
+    color: #30475e;
+
+}
+
+
+#bottom-heading {
+   padding: 1% 15% ;
+   font-size: 1.56rem;
+   line-height: 1.5;
+   margin-top: 50px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 10px 10px;
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+
+}
+
+/* project */
+
+.project{
+  border: 3px solid;
+  border-radius: 15px 50px;
+  border-color: white;
+  text-align: center;
+  color: white;
+}
+
+.project-img {
+  width: 250px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 5px solid;
+}
+
+.project-img:hover{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  /* padding: 10px 32px; */
+}

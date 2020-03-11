@@ -176,11 +176,12 @@ p {
 
 .footer-icons {
     margin: 10px 10px;
+    font-size: 150%;
 }
 
 .footer-icons:hover {
     color: #ff4c68;
-
+    font-size: 200%;
 }
 
 /* project */

@@ -135,7 +135,7 @@ p {
 
 #projects {
     padding: 100px;
-    background-image: url("bg.png");
+    background-image: url("https://avante.biz/wp-content/uploads/High-Resolution-Dark-Wallpapers/High-Resolution-Dark-Wallpapers-029.jpg");
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -176,12 +176,11 @@ p {
 
 .footer-icons {
     margin: 10px 10px;
-    font-size: 150%;
 }
 
 .footer-icons:hover {
     color: #ff4c68;
-    font-size: 200%;
+
 }
 
 /* project */
@@ -206,7 +205,9 @@ p {
 
 }
 
-
+li {
+  font-size: 1.3rem;
+}
 
 
 

@@ -1,11 +1,20 @@
+/* I am not gonna lie, this is the worst style sheet ever written
+on the face of earth, It works, and I know why But style is not there to be found
+anywhere in this code.
+
+One day, if that day may come, I will refactor the code */
+
+
 body {
     font-family: "Montserrat";
 }
 
 #title {
     /* background-color: #ff4c68; */
-    background-image: url("https://makcreates.com/wp-content/uploads/2018/03/black-background-mak-creates-web-design-services-1500-2500.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url("https://images.wallpaperscraft.com/image/car_retro_winter_130636_2560x1440.jpg");
     color: #fff;
+    background-size: cover;
+    background-position: center;
 
 
 }
@@ -13,7 +22,9 @@ body {
 .about{
   color: #f8f8f8;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
 }
 
 h1 {
@@ -71,7 +82,7 @@ p {
 /* title image */
 
 .title-img {
-    width: 60%;
+    width: 80%;
     /* transform: rotate(25deg); */
     position: absolute;
     right: 1%;
@@ -135,7 +146,8 @@ p {
 
 #projects {
     padding: 100px;
-    background-image: url("https://avante.biz/wp-content/uploads/High-Resolution-Dark-Wallpapers/High-Resolution-Dark-Wallpapers-029.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)),
+    url("https://wallpaperstock.net/vintage-tv_wallpapers_53326_2560x1600.jpg");
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -152,6 +164,17 @@ p {
         transform: rotate(0);
     }
 }
+
+.top-head{
+    letter-spacing: 5px;
+}
+
+.bottom-head{
+    letter-spacing: 20px;
+    font-size: 5rem;
+}
+
+
 
 
 #cta {
@@ -201,9 +224,9 @@ p {
   border: 5px solid;
 }
 
-.project-img:hover{
+/* .project-img:hover{
 
-}
+} */
 
 li {
   font-size: 1.3rem;

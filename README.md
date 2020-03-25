@@ -1,6 +1,6 @@
 # Portfolio-0.1
 
-<h1>Static Portfolio build using css and html.<.h1>
+<h1>Static Portfolio build using css and html.</h1>
 
 <ul>
   <li>HTML</li>

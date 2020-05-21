@@ -7,12 +7,11 @@ One day, if that day may come, I will refactor the code */
 
 body {
     font-family: "Montserrat";
+    overflow: hidden;
+    overflow-y: scroll;
 /*     padding:2px 5px 0; */
 }
 
-.example::-webkit-scrollbar {
-  display: none;
-}
 
 #title {
     /* background-color: #ff4c68; */

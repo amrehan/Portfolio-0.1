@@ -10,4 +10,4 @@
 </ul>
 
 
-https://relatively.github.io/Portfolio-0.1/
+https://relativelyrehan.github.io/Portfolio-0.1/

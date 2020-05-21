@@ -6,7 +6,7 @@
   <li>HTML</li>
   <li>css</li>
   <li>bootstrap</li>
-  <li>responsive</li>
+  <li>Responsive Design</li>
 </ul>
 
 

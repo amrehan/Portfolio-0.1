@@ -7,11 +7,10 @@ One day, if that day may come, I will refactor the code */
 
 body {
     font-family: "Montserrat";
-    overflow: hidden;
 /*     padding:2px 5px 0; */
 }
 
-body::-webkit-scrollbar {
+.example::-webkit-scrollbar {
   display: none;
 }
 

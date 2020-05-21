@@ -285,5 +285,12 @@ margin-bottom: 10px
     margin-bottom: 2rem;
     
 }
-    
+  
+.contact-me-image{
+    height: 175px;
+}
+
+.full-stack{
+    border-bottom: 5px solid white;
+}
     

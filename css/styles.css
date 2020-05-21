@@ -293,4 +293,11 @@ margin-bottom: 10px
 .full-stack{
     border-bottom: 5px solid white;
 }
+
+#bottom-button{
+    margin: auto;
+    width: 33.33%;
+    height: 75px;
+    font-size: 1.5rem;
+}
     

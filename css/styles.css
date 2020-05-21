@@ -4,11 +4,23 @@ anywhere in this code.
 
 One day, if that day may come, I will refactor the code */
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+
 
 body {
     font-family: "Montserrat";
-    overflow: hidden;
-    overflow-y: scroll;
 /*     padding:2px 5px 0; */
 }
 

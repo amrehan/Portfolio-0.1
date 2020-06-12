@@ -5,7 +5,7 @@ anywhere in this code.
 One day, if that day may come, I will refactor the code */
 
 html {
-    overflow: scroll;
+/*     overflow: scroll; */
     overflow-x: hidden;
     scroll-behavior: smooth;
 }

@@ -7,6 +7,7 @@ One day, if that day may come, I will refactor the code */
 html {
     overflow: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */

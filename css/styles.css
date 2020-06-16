@@ -1,0 +1,389 @@
+/* I am not gonna lie, this is the worst style sheet ever written
+on the face of earth, It works, and I know why But style is not there to be found
+anywhere in this code.
+
+One day, if that day may come, I will refactor the code */
+
+html {
+ overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: "Montserrat";
+    width: 105%;
+/*     padding:2px 5px 0; */
+}
+
+
+#title {
+    /* background-color: #ff4c68; */
+    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url("https://www.legalgeek.co/wp-content/uploads/2017/04/Code-e1493037111360.jpg");
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.about{
+  color: #f8f8f8;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+}
+
+h1 {
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat-black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light"
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+    width: 80%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    right: 1%;
+}
+
+.icon-feautures {
+    height: 10px;
+}
+
+#skills {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    /* line-height: 2.5; */
+}
+
+.heading__skills{
+    color: #30475e;
+}
+
+.icon {
+    color: #30475e;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #142850;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* #projects {
+    padding: 100px;
+    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url("https://miro.medium.com/proxy/1*yTf6HPtxgz4VYlwEfJwEXw.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+} */
+
+
+.projects{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.908), rgba(39, 34, 34, 0.888)),
+    url("../images/projects.jpg");
+    padding: 5rem 7.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.project__container {
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.project__heading{
+    /* padding: 1rem; */
+    color: white;
+    letter-spacing: 10px;
+}
+
+.project__info{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.project-image-one {
+    border-radius: 10px;
+    /* width: 75%; */
+
+}
+
+.project__buttons{
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.397);
+}
+
+.cta{
+    padding: 5rem 7.5rem;
+}
+
+.fun{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.688)),
+    url("../images/fun.jpg");
+    padding: 5rem 7.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    margin: 3rem 0 ;
+}
+
+.fun__image{
+    height: 300px;
+}
+
+.fun__image:hover{
+    transform: scale(1.2);
+}
+
+.margin__bottom__2rem{
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.top-head{
+    letter-spacing: 5px;
+}
+
+.bottom-head{
+    letter-spacing: 20px;
+    font-size: 5rem;
+}
+
+
+
+
+#cta {
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    text-align: center;
+    color: #30475e;
+
+}
+
+
+#bottom-heading {
+   padding: 1% 15% ;
+   font-size: 1.56rem;
+   line-height: 1.5;
+   margin-top: 50px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 10px 10px;
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+
+}
+
+footer{
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* project */
+
+.project{
+  border: 3px solid;
+  border-radius: 15px 50px;
+  border-color: white;
+  text-align: center;
+  color: white;
+}
+
+.project-img {
+  width: 250px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 5px solid;
+  padding: 10px;
+}
+
+/* .project-img:hover{
+
+} */
+
+li {
+  font-size: 1.3rem;
+}
+
+
+
+.container {
+margin-bottom: 10px
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  /* padding: 10px 32px; */
+}
+
+.sm-icon{
+    font-size: 1.75rem; 
+    letter-spacing: 15px;
+    margin: 15px 0;
+    
+}
+
+.project-container{
+    margin-bottom: 2rem;
+    
+}
+  
+.contact-me-image{
+    height: 300px;
+    margin: auto;
+}
+
+.full-stack{
+    border-bottom: 5px solid white;
+}
+
+#bottom-button{
+    margin: auto;
+    width: 33.33%;
+    height: 75px;
+    font-size: 1.5rem;
+}
+    

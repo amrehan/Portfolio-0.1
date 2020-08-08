@@ -10,21 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
-body {
-    font-family: "Montserrat";
-    width: 105%;
-/*     padding:2px 5px 0; */
-}
-
-
 #title {
-    /* background-color: #ff4c68; */
-    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url("https://www.legalgeek.co/wp-content/uploads/2017/04/Code-e1493037111360.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url(../images/book\ bg.jpg);
+    /* background-color: #221f3b; */
     color: #fff;
     background-size: cover;
     background-position: center;
+    height: 100vh;
 
 
 }
@@ -34,6 +26,8 @@ body {
   line-height: 1.5;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  font-family: 'Lemonada',
+  cursive;  
 
 }
 
@@ -81,8 +75,13 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-light"
+    font-family: "Montserrat-light";
 
+}
+
+#nav-link-id{
+    color: #fff;
+    font-size: 25px;
 }
 
 .download-button {
@@ -98,13 +97,10 @@ p {
     right: 1%;
 }
 
-.icon-feautures {
-    height: 10px;
-}
-
 #skills {
     padding: 7% 15%;
-    background-color: #fff;
+    background-color: #eeeeee;
+    /* background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url(../images/book\ bg.jpg); */
     position: relative;
 
 
@@ -169,7 +165,9 @@ p {
 
 .projects{
     background-image: linear-gradient(rgba(0, 0, 0, 0.908), rgba(39, 34, 34, 0.888)),
-    url("../images/projects.jpg");
+
+    url("../images/book\ bg.jpg");
+    /* background-color: #221f3b; */
     padding: 5rem 7.5rem;
     background-size: cover;
     background-position: center;
@@ -209,9 +207,26 @@ p {
     padding: 5rem 7.5rem;
 }
 
+.our-padding{
+    padding: 20px;
+    margin: 0;
+}
+
+.font-bb{
+    font-family: 'Berkshire Swash',
+    cursive;
+}
+
+#our-headings{
+    color: white;
+    margin: 20px;
+    font-family: 'Berkshire Swash',
+    cursive;
+}
+
 .fun{
     background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.688)),
-    url("../images/fun.jpg");
+    url("../images/book\ bg.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
     background-position: center;
@@ -242,7 +257,9 @@ p {
     .title-img {
         position: static;
         transform: rotate(0);
-    }
+        border: 2px solid #fff;
+        padding: 20px;
+        }
 }
 
 .top-head{
@@ -271,18 +288,34 @@ p {
    font-size: 1.56rem;
    line-height: 1.5;
    margin-top: 50px;
+   font-family: 'Lemonada',
+   cursive;
+}
+
+.margin-top{
+    margin-top: 1rem;
 }
 
 #contact {
     text-align: center;
+    padding: 5rem;
+    background-image: url(../images/book\ bg.jpg);
+    /* background-color: #2f2519; */
+    font-size: 30px;
+    margin-bottom: -20px;
 }
 
-.footer-icons {
-    margin: 10px 10px;
+.footer-icon {
+    margin: 10px 40px;
+    color: teal;
+    font-size: 3rem;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
 }
 
-.footer-icons:hover {
-    color: #ff4c68;
+.footer-icon:hover {
+    color: teal;
 
 }
 
@@ -359,12 +392,6 @@ margin-bottom: 10px
   /* padding: 10px 32px; */
 }
 
-.sm-icon{
-    font-size: 1.75rem; 
-    letter-spacing: 15px;
-    margin: 15px 0;
-    
-}
 
 .project-container{
     margin-bottom: 2rem;
@@ -377,7 +404,7 @@ margin-bottom: 10px
 }
 
 .full-stack{
-    border-bottom: 5px solid white;
+    border-bottom: 2px solid white;
 }
 
 #bottom-button{
@@ -385,5 +412,12 @@ margin-bottom: 10px
     width: 33.33%;
     height: 75px;
     font-size: 1.5rem;
+    color: #fff;
+    background-color: teal;
+}
+
+#bottom-button:hover{
+    color: #fff;
+    background-color: teal;
 }
     

@@ -9,5 +9,9 @@
   <li>Responsive Design</li>
 </ul>
 
+## Sneak Peak
+
+![Alt](img.png)
+
 
 https://relativelyrehan.github.io/Portfolio-0.1/

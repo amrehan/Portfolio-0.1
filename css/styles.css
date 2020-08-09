@@ -143,9 +143,9 @@ p {
     url("../images/book\ bg.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     position: relative;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .project__container {
@@ -291,6 +291,15 @@ a{
     /* background-color: #2f2519; */
     font-size: 30px;
     margin-bottom: -20px;
+}
+
+.my-hover:hover{
+    width: 200%;
+}
+
+.pad-btn{
+    padding: 1.5rem 3.5rem;
+    font-size: 20px;
 }
 
 .footer-icon {

@@ -17,10 +17,11 @@ body{
 }
 
 #title {
-    background:linear-gradient(rgba(0, 0, 0, 0.808), rgba(39, 34, 34, 0.788)), url(../images/book\ bg.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.788)), url(../images/book\ bg.jpg);
     color: #fff;
     background-size: cover;
-    background-position: left;
+    background-position: center;
+    background-attachment: fixed;
 
 
 }
@@ -116,8 +117,7 @@ p {
 
 #skills {
     padding: 7% 15%;
-    background-color: #eeeeee;
-    position: relative;
+    background-color: #fff;
 }
 
 .feature-box {
@@ -139,13 +139,19 @@ p {
 }
 
 .projects{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.908), rgba(39, 34, 34, 0.888)),
-    url("../images/book\ bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.508), rgba(39, 34, 34, 0.888)),
+    url("../images/bg-skills.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
+}
+
+.footer-svg{
+    height: 250px;
+    display: block;
+    margin: 0 auto;
 }
 
 .project__container {
@@ -188,7 +194,11 @@ a{
 }
 
 .cta{
-    padding: 5rem 7.5rem;
+    padding: 6rem 7.5rem;
+}
+
+.text-big{
+    font-size: 20px;
 }
 
 .our-padding{
@@ -208,12 +218,28 @@ a{
     cursive;
 }
 
+#fun{
+    margin-top: -50px;
+}
+.blog-hover{
+    opacity: 1;
+    width: 90%;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.blog-hover:hover{
+    opacity: .9;
+    border: 10px solid #30475e;
+}
+
 .fun{
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.688)),
-    url("../images/book\ bg.jpg");
+    url("../images/bg-read.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     position: relative;
     background-attachment: fixed;
     margin: 3rem 0 ;
@@ -283,11 +309,6 @@ a{
 #contact {
     text-align: center;
     padding: 5rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.908), rgba(39, 34, 34, 0.888)),
-
-    url("../images/book\ bg.jpg");
-    background-position: left;
-    background-size: cover;
     /* background-color: #2f2519; */
     font-size: 30px;
     margin-bottom: -20px;
@@ -325,8 +346,7 @@ a{
 }
 
 .footer-icon:hover {
-    color: #fff;
-    background-color: #000000;
+    color: #26262c;
 
 }
 

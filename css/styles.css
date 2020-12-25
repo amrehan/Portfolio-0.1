@@ -17,7 +17,7 @@ body{
 }
 
 #title {
-    background:linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.788)), url(../images/book\ bg.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.788)), url("https://cdn.suwalls.com/wallpapers/movies/brand-interstellar-36446-2880x1800.jpg");
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -140,7 +140,7 @@ p {
 
 .projects{
     background-image: linear-gradient(rgba(0, 0, 0, 0.508), rgba(39, 34, 34, 0.888)),
-    url("../images/bg-skills.jpg");
+    url("https://cdn.suwalls.com/wallpapers/movies/brand-interstellar-36446-2880x1800.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
     background-position: center;
@@ -236,7 +236,7 @@ a{
 .fun{
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(39, 34, 34, 0.688)),
-    url("../images/bg-read.jpg");
+    url("https://cdn.suwalls.com/wallpapers/movies/brand-interstellar-36446-2880x1800.jpg");
     padding: 5rem 7.5rem;
     background-size: cover;
     background-position: center;
